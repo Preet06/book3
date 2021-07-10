@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+
+{% block content %}
+   <div class="post-entry">
+   <h2><label>Book Name-</label>{{ object.Book_Name }}</h2>
+   <p><label>Author-</label>{{ object.Author }}</p>
+   <p><label>Genre-</label>{{ object.Genre }}</p>
+   <p><label>Language-</label>{{ object.Language }}</p>
+   </div>
+{% endblock content %}
+    
+</body>
+
+</html>
